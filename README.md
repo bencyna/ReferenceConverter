@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ReferenceConverter
 ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
@@ -55,3 +56,6 @@ None yet
 - [GitHub Profile](https://github.com/bencyna)
 
 For further information on this project, if you'd like to discuss changes or work together - please reach out directly to: https://www.linkedin.com/in/bencyna567/.
+=======
+# ReferenceConverter
+>>>>>>> c8e00d52f435ea67fb40265da83e272268cfae21
