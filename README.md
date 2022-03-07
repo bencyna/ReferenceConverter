@@ -1,47 +1,57 @@
-# My Todo
+# ReferenceConverter
+![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
-This project can be used as a starting point to create your own Vaadin application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+## Demo
+This application doesn't have a demo yet, it will be a learning project in java that will lead to a useful reference generator
 
-## Running the application
+## Table of Contents
 
-The project is a standard Maven project. To run it from the command line,
-type `mvnw` (Windows), or `./mvnw` (Mac & Linux), then open
-http://localhost:8080 in your browser.
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributors](#contributors)
+- [Test](#test)
+- [Credits](#credits)
+- [License](#license)
+- [Questions](#questions)
 
-You can also import the project to your IDE of choice as you would with any
-Maven project. Read more on [how to import Vaadin projects to different 
-IDEs](https://vaadin.com/docs/latest/flow/guide/step-by-step/importing) (Eclipse, IntelliJ IDEA, NetBeans, and VS Code).
+## Description:
+Useful way to convert your referecnes into a nicley formatted object, starting with AGLC4 for law 
 
-## Deploying to Production
 
-To create a production build, call `mvnw clean package -Pproduction` (Windows),
-or `./mvnw clean package -Pproduction` (Mac & Linux).
-This will build a JAR file with all the dependencies and front-end resources,
-ready to be deployed. The file can be found in the `target` folder after the build completes.
+## Installation:
 
-Once the JAR file is built, you can run it using
-`java -jar target/mytodo-1.0-SNAPSHOT.jar`
 
-## Project structure
+## Usage:
+The purpose of this project is to develop my python skills, typing is an important skill that can make making things more efficient
 
-- `MainLayout.java` in `src/main/java` contains the navigation setup (i.e., the
-  side/top bar and the main menu). This setup uses
-  [App Layout](https://vaadin.com/components/vaadin-app-layout).
-- `views` package in `src/main/java` contains the server-side Java views of your application.
-- `views` folder in `frontend/` contains the client-side JavaScript views of your application.
-- `themes` folder in `frontend/` contains the custom CSS styles.
+***
+<!-- ![image of application running in console](./assets/screenshot1.png)  
+The image above shows the game in progress with the amazing GUI -->
+An image will be added here when the application has started to look like something
+***
 
-## Useful links
 
-- Read the documentation at [vaadin.com/docs](https://vaadin.com/docs).
-- Follow the tutorials at [vaadin.com/tutorials](https://vaadin.com/tutorials).
-- Watch training videos and get certified at [vaadin.com/learn/training](https://vaadin.com/learn/training).
-- Create new projects at [start.vaadin.com](https://start.vaadin.com/).
-- Search UI components and their usage examples at [vaadin.com/components](https://vaadin.com/components).
-- View use case applications that demonstrate Vaadin capabilities at [vaadin.com/examples-and-demos](https://vaadin.com/examples-and-demos).
-- Discover Vaadin's set of CSS utility classes that enable building any UI without custom CSS in the [docs](https://vaadin.com/docs/latest/ds/foundation/utility-classes). 
-- Find a collection of solutions to common use cases in [Vaadin Cookbook](https://cookbook.vaadin.com/).
-- Find Add-ons at [vaadin.com/directory](https://vaadin.com/directory).
-- Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/vaadin) or join our [Discord channel](https://discord.gg/MYFq5RTbBn).
-- Report issues, create pull requests in [GitHub](https://github.com/vaadin/platform).
+
+## Contributors:
+
+[Ben Cyna](https://github.com/bencyna/)
+
+## Test:
+None yet
+
+
+
+## License:
+
+      For additional information about the License, click the link below.
+
+- [License](https://opensource.org/licenses/MIT)
+
+## Questions:
+
+      If you have any questions about the Calendule project, you can follow the link below to navigate to my GitHub page:
+
+- [GitHub Profile](https://github.com/bencyna)
+
+For further information on this project, if you'd like to discuss changes or work together - please reach out directly to: https://www.linkedin.com/in/bencyna567/.

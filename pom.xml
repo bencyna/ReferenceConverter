@@ -123,6 +123,11 @@
             <version>5.0.3</version>
             <scope>test</scope>
         </dependency>
+
+        <dependancy>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-core</artifactId>
+        </dependancy>
     </dependencies>
 
     <build>
