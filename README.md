@@ -16,14 +16,14 @@ This application doesn't have a demo yet, it will be a learning project in java 
 - [Questions](#questions)
 
 ## Description:
-Useful way to convert your referecnes into a nicley formatted object, starting with AGLC4 for law 
+Useful way to convert your referecnes into a nicely formatted object, starting with AGLC4 for law 
 
 
 ## Installation:
-
+This project started out with the intention of building a web app that had a nice graphical user interface in java to learn. But I figured it would be more effective to learn Java with a console app. Keep the classes as broad as possible to allow it to easily mold into a graphical desktop application. Once this is up and I can let law students in on it. 
 
 ## Usage:
-The purpose of this project is to develop my python skills, typing is an important skill that can make making things more efficient
+The purpose of this project is to develop my java skills, referencing in law is the most annoying thing to do, so this project will make this process a lot simpler. 
 
 ***
 <!-- ![image of application running in console](./assets/screenshot1.png)  

@@ -117,7 +117,6 @@
     "@webcomponents/shadycss": "1.9.6",
     "construct-style-sheets-polyfill": "3.0.4",
     "date-fns": "2.23.0",
-    "line-awesome": "1.3.0",
     "lit": "2.1.4"
   },
   "devDependencies": {
@@ -261,8 +260,7 @@
     "@vaadin/common-frontend": "$@vaadin/common-frontend",
     "construct-style-sheets-polyfill": "$construct-style-sheets-polyfill",
     "date-fns": "$date-fns",
-    "lit": "$lit",
-    "line-awesome": "$line-awesome"
+    "lit": "$lit"
   },
   "vaadin": {
     "dependencies": {
@@ -380,7 +378,6 @@
       "@webcomponents/shadycss": "1.9.6",
       "construct-style-sheets-polyfill": "3.0.4",
       "date-fns": "2.23.0",
-      "line-awesome": "1.3.0",
       "lit": "2.1.4"
     },
     "devDependencies": {
@@ -405,6 +402,6 @@
       "workbox-precaching": "6.4.2",
       "workbox-webpack-plugin": "6.4.2"
     },
-    "hash": "90dd9ca8d8a0be50955ce6136bbb9377e6c51cf42fd299e6a04c8968578ccc91"
+    "hash": "a9484eec2e6f3ff6d8877162ea50b76ebd9097c0e6c87cfcca3c14038eda39db"
   }
 }
