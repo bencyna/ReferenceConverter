@@ -7,7 +7,7 @@ public class BookReference extends Reference {
 // should create the inputs it needs and return them 
 public BookReference() {
     authorName = new AuthorName();
-    
+    // figure out flow for this
 };
 
 public Input[] getInputs() {
