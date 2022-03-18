@@ -1,5 +1,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import ReferenceTypes.Reference;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -16,7 +17,7 @@ public class App {
         // Initiate the data
         GenerateReference generator = new GenerateReference();
         generator.makeChoice(name);
-        System.out.println(generator.getReferenceChoice());
-
+        Reference reference = generator.createReference(generator.getReferenceChoice());
+        
     }
 }

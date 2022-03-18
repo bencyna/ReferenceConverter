@@ -1,3 +1,4 @@
+import ReferenceTypes.BookReference;
 import ReferenceTypes.Reference;
 
 public class GenerateReference {
@@ -6,14 +7,13 @@ public class GenerateReference {
      }
      public String getReferenceChoice() { return referenceType; }
      public Reference createReference(String referenceType) { 
-        if (referenceType == "1") {
-            System.out.println("Retrun the first reference");
+
+        if (referenceType.equals("1")) {
             // make these child classes // starting with Cases and then Legistlation
-            Reference reference1 = new Reference();
-            return reference1;
+            BookReference book_reference = new BookReference();
+            return book_reference;
         }
         else {
-            System.out.println("Retrun the default reference");
             Reference reference1 = new Reference();
             return reference1;
         }
