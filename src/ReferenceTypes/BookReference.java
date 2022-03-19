@@ -6,6 +6,8 @@ import InputTypes.Input;
 public class BookReference extends Reference {
 // should create the inputs it needs and return them 
 public BookReference() {
+    System.out.println("book reference created");
+    
     authorName = new AuthorName();
     // figure out flow for this
 };

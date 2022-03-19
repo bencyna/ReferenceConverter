@@ -7,4 +7,7 @@ public class Input {
     public String removeSubstringFromString(String parentString, String subString) {
         return parentString.replaceAll("(?i)"+ Pattern.quote(subString), "");
     }
+    public String getInputType() { return "text"; }
+    public void formatItem(String name) {}
+    public String getFormattedResult() { return "default"; }
 }
