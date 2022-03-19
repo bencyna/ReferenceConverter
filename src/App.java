@@ -41,5 +41,8 @@ public class App {
             inputs[i].formatItem(userInputForField);
             formattedResults.add(inputs[i].getFormattedResult());
         }
+        String finalReference = reference.generateReference(formattedResults);
+        System.out.println(finalReference);
+
     }
 }

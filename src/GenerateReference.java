@@ -1,6 +1,7 @@
 import ReferenceTypes.BookReference;
 import ReferenceTypes.Reference;
 
+
 public class GenerateReference {
     public void makeChoice(String choice) {
         referenceType = choice;
@@ -18,5 +19,6 @@ public class GenerateReference {
             return reference1;
         }
      }
+
     private String referenceType;
 }
