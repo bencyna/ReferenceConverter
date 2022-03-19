@@ -16,7 +16,7 @@ This application doesn't have a demo yet, it will be a learning project in java 
 - [Questions](#questions)
 
 ## Description:
-Useful way to convert your referecnes into a nicely formatted object, starting with AGLC4 for law 
+Useful way to convert your referecnes into a nicely formatted object, starting with AGLC4 for law. This project focuses on OOP design priniciples to ensure readbility and reuseability of code.
 
 
 ## Installation:
