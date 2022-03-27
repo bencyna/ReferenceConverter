@@ -1,9 +1,10 @@
 package InputTypes;
 
 public class AuthorName extends Input {
-    public String getFormattedResult() {
-        return nameFormatted;
-    }
+    public AuthorName() {
+        userPrompt = "Enter the authors name displayed on your reference: ";
+    };
+  
     public void formatItem(String name) {
         if (name.toUpperCase().contains("associate".toUpperCase())) {
             name = removeSubstringFromString(name, "associate");
@@ -35,7 +36,6 @@ public class AuthorName extends Input {
         name = removeSubstringFromString(name, ".");
         name = removeSubstringFromString(name, ",");
 
-        this.nameFormatted = name;
+        inputFormatted = name;
     }
-    private String nameFormatted;
 }

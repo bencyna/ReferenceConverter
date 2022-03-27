@@ -1,8 +1,22 @@
 import ReferenceTypes.BookReference;
 import ReferenceTypes.Reference;
-
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class GenerateReference {
+    public String selectReferenceType() throws IOException { 
+        System.out.println("Choose the number of your reference type from the options below");
+        System.out.println("1. Reference to a book");
+        System.out.println("2. Choice 2");
+
+        // Enter data using BufferReader
+        BufferedReader reader = new BufferedReader(
+        new InputStreamReader(System.in));
+        // Reading data using readLine
+        return reader.readLine();
+
+    }
     public void makeChoice(String choice) {
         referenceType = choice;
      }

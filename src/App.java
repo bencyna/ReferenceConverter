@@ -8,17 +8,10 @@ import java.util.ArrayList;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Welcome to your reference generator");
-        System.out.println("Choose the number of your reference type from the options below");
-        System.out.println("1. Choice 1");
-        System.out.println("2. Choice 2");
-
-        // Enter data using BufferReader
-        BufferedReader reader = new BufferedReader(
-            new InputStreamReader(System.in));
-        // Reading data using readLine
-        String name = reader.readLine();
+  
         // Initiate the data
         GenerateReference generator = new GenerateReference();
+        String name = generator.selectReferenceType();
         generator.makeChoice(name);
         // store the data in parent class
         Reference reference = generator.createReference(generator.getReferenceChoice());
@@ -33,6 +26,7 @@ public class App {
             
             //String inputType = inputs[i].getInputType();
             // if (inputType.equals("text")) {
+                inputs[i].getUserPrompt();
                 BufferedReader inputFieldInput = new BufferedReader(
                     new InputStreamReader(System.in));
                 // Reading data using readLine
