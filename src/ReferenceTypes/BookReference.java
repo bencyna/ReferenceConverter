@@ -13,7 +13,7 @@ public BookReference() {
     System.out.println("book reference created");
     
     authorName = new AuthorName();
-    title = new Title();
+    title = new Title(true);
 };
 
 public Input[] getInputs() {

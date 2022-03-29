@@ -2,6 +2,7 @@ package InputTypes;
 
 public class AuthorName extends Input {
     public AuthorName() {
+        // need logic for multiple author names
         userPrompt = "Enter the authors name displayed on your reference: ";
     };
   

@@ -1,5 +1,4 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+
 import ReferenceTypes.Reference;
 import InputTypes.Input;
 import java.util.ArrayList;
@@ -26,12 +25,9 @@ public class App {
             
             //String inputType = inputs[i].getInputType();
             // if (inputType.equals("text")) {
-                inputs[i].getUserPrompt();
-                BufferedReader inputFieldInput = new BufferedReader(
-                    new InputStreamReader(System.in));
-                // Reading data using readLine
-                String userInputForField = inputFieldInput.readLine();
+            String userInputForField = inputs[i].getUserPrompt();
             // }
+            
             inputs[i].formatItem(userInputForField);
             formattedResults.add(inputs[i].getFormattedResult());
         }
