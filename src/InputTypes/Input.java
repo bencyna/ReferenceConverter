@@ -27,4 +27,5 @@ public class Input {
 
     protected String userPrompt = "You have been prompted";
     protected String inputFormatted;
+    protected String info;
 }
