@@ -18,6 +18,9 @@ public class Publisher extends Input{
         if (publisher.toUpperCase().contains("Co ".toUpperCase()) || publisher.toUpperCase().contains("Co.".toUpperCase())) {
             publisher = removeSubstringFromString(publisher, "Co");
         }
+        
+        publisher = removeSubstringFromString(publisher, ".");
+        publisher = removeSubstringFromString(publisher, ",");
         // etc
         inputFormatted = publisher;
     }
